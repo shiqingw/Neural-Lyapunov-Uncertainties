@@ -1,0 +1,21 @@
+True system parameters: 
+type = backstepping_3d
+state_dim = 3
+action_dim = 1
+a = 1
+b = 1
+c = 1
+d = 1
+state_norm = (1.5, 1.5, 2.0)
+action_norm = (10.0,)
+
+Nominal system parameters: 
+type = backstepping_3d
+state_dim = 3
+action_dim = 1
+a = 0.9
+b = 0.8
+c = 0.9
+d = 0.8
+state_norm = (1.5, 1.5, 2.0)
+action_norm = (10.0,)
