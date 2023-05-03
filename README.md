@@ -19,7 +19,7 @@ The code is tested on
 The codebase contains three examples: the inverted pendulum (`eg1_inverted_pendulum_2d`), a hypothetical system of strict feedback form (`eg2_backstepping_3d`), and the cart-pole (`eg3_cartpole_4d`).
 
 ## Code Usage
-1. Open the main script, e.g. `eg1_inverted_pendulum_2d/inv_pend_2d_sum4_nn_controller.py` and modify the hyper-parameters
+1. Open the main script, e.g. `eg1_inverted_pendulum_2d/inv_pend_2d_sum4_nn_controller.py` and modify the hyper-parameters in `input_args_str` located in the beginning of the script (after the imports)
 2. Execute the script
-3. After training, the results will be saved in the `results/exp_XXX` where XXX is the `exp_num` you defined in the hyper-parameters
-
+3. After training, the results will be saved in the `results/exp_XXX` where XXX is the `exp_num` you defined in the hyper-parameters. The script will automatically save all the hyper-parameters in `results/exp_XXX/00hyper_parameters.txt`.
+4. The scripts `diagnostic*.py` and `post_processing*.py` are used for analyzing and visualizing the results.
