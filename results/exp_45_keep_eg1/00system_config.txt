@@ -1,0 +1,21 @@
+True system parameters: 
+type = pendulum
+state_dim = 2
+action_dim = 1
+g = 9.81
+m = 1
+L = 0.5
+b = 0.0
+state_norm = (3.141592653589793, 3.141592653589793)
+action_norm = (10,)
+
+Nominal system parameters: 
+type = pendulum
+state_dim = 2
+action_dim = 1
+g = 9.81
+m = 0.8
+L = 0.4
+b = 0.0
+state_norm = (3.141592653589793, 3.141592653589793)
+action_norm = (10,)
