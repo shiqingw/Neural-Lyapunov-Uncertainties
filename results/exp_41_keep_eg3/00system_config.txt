@@ -1,0 +1,23 @@
+True system parameters: 
+type = cartpole
+state_dim = 4
+action_dim = 1
+M = 1
+m = 0.3
+g = 9.81
+l = 1
+b = 0
+state_norm = (1.0, 0.5235987755982988, 1.5, 1.0)
+action_norm = (10.0,)
+
+Nominal system parameters: 
+type = cartpole
+state_dim = 4
+action_dim = 1
+M = 0.8
+m = 0.27
+g = 9.81
+l = 0.8
+b = 0
+action_norm = (10.0,)
+state_norm = (1.0, 0.5235987755982988, 1.5, 1.0)
